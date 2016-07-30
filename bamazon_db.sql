@@ -15,15 +15,19 @@ CREATE TABLE products(
 --adding database info
 INSERT INTO products (ProductName, DepartmentName, Price, StockQuantity) VALUES
   ('SSD', 'computers', 99.99, 1000),
+  ('Wicked Chair', 'furniture', 199.99, 7500),
   ('Sneakers', 'apparel', 49.99, 25000),
   ('Aspirin', 'pharmacological', 2.99, 1000000),
   ('Drone Copter', 'electronics', 499.99, 250),
   ('Macbook Air', 'computers', 999.99, 5000),
+  ('Awesome Couch', 'furniture', 399.99, 5000),
   ('Polo shirts', 'apparel', 24.99, 100000),
   ('Theraflu', 'pharmocological', 4.99, 500000),
   ('HD TV', 'electronics', 249.99, 10000);
 
 --this shows the data in the terminal
+SHOW DATABASES;
+
 SHOW TABLES;
 
 DESCRIBE products;
